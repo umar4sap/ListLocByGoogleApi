@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="js/script.js"></script><!-- Google Maps API -->
+</head>
+
+<body>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+
+    <div class="row">
+
+
+
+
+
+        <div class="col-md-7">
+
+            <h1>Search, world!</h1>
+
+            <ul class="list-group" id="address" onclick="UpdateMap()">
+            <li class="list-group-item">Madhapur Police Station Bus Stop
+                Opposite to Madhapur Police Station, Hitech City Rd
+                Sri Rama Colony, Madhapur
+                Hyderabad, Telangana 500034</li>
+            <li class="list-group-item">Hyderabad</li>
+            <li class="list-group-item">Mumbai</li>
+            <li class="list-group-item">Mumbai</li>
+            <li class="list-group-item">Dehli</li>
+            <li class="list-group-item">Agra</li>
+        </ul>
+
+        </div>
+
+
+        <div class="col-md-5">
+            <div id='map-canvas'>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+    </div>
+
+</div>
+
+</body>
+<style>
+
+    #map-canvas
+    {
+      	/* map width */
+        height: 500px;	/* map height */
+    }
+
+</style>
+</html>
