@@ -110,7 +110,7 @@ marker, 'click', function() {
  infowindow.open( map, marker );
  });
 
- #DOMListner
+ # DOMListner
  
 Call the method 'Init()' to display the google map when the web page is displayed ( load event )
 
