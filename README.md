@@ -8,7 +8,7 @@ In this application user can pick the location from address list and the same wi
 
 
 API link
-<pre><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script></pre>
+https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"
 
 
 
@@ -29,16 +29,15 @@ map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 #geocoder
 
-Update the Google map for the user's Listed address
-	function UpdateMap( )
-	{
 
-	 // instantiate a geocoder object
-	}
-		var geocoder = new google.maps.Geocoder();
+Update the Google map for the user's Listed address
+
+//Userdefine function	function UpdateMap( ){ 
+// instantiate a geocoder object
+	}var geocoder = new google.maps.Geocoder();
 
 Make asynchronous call to Google geocoding APi
-		geocoder.geocode( { 'address': address }, function(results, status){}
+//geocoder.geocode( { 'address': address }, function(results, status){}
 
 #showLocation API
 Show the location (address) on the map
