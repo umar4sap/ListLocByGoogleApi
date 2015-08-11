@@ -8,7 +8,7 @@ In this application user can pick the location from address list and the same wi
 
 
 API link
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<pre><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script></pre>
 
 
 
