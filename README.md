@@ -32,10 +32,7 @@ map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 Update the Google map for the user's Listed address
 
-	function UpdateMap( ){ 
-
-// instantiate a geocoder object
-	}var geocoder = new google.maps.Geocoder();
+var geocoder = new google.maps.Geocoder();
 
 
 Make asynchronous call to Google geocoding APi
